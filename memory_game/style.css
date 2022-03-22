@@ -1,0 +1,18 @@
+.grid{
+    display: flex;
+    margin: auto;
+    flex-wrap: wrap;
+    height: 456px;
+    width: 609px;
+}
+img{
+    height: 150px;
+    width: 150px;
+    border: 1px solid black;
+}
+img:hover{
+    cursor: pointer
+}
+.result{
+    margin-left: 330px;
+}

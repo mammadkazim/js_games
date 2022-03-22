@@ -1,0 +1,92 @@
+*{box-sizing: border-box; margin: 0; padding: 0;}
+h1{margin: 0px;}
+.container{
+    background-image: url(img/bg-img.jpg);
+    width: 40%;
+    height: auto;
+    margin: 20px auto;
+    background-color: rgb(224, 155, 65);
+    text-align: center;
+    padding: 10px 0;
+    color: aliceblue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    border-radius: 30px;
+}
+.container.anime{
+    animation: anime 2s linear;
+}
+h1{
+    color: goldenrod;
+    margin: 10px 0;
+}
+p{
+   font-size: 22px;
+   margin: 10px 0;
+}
+button{
+    cursor: pointer;
+    margin: 15px auto;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 12px;
+    background-color: rgb(41, 128, 0);
+    font-weight: bold;
+    display: block;
+}
+button:hover{
+    background-color: black;
+    color: white;
+}
+button:active{
+    background-color: rgb(204, 19, 19);
+    color: white;
+}
+#cards-area{
+    display: none;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    height: 163px;
+}
+#cards-area img {
+    position: absolute;
+    width: 100px;
+    height: 133px;
+    border-radius: 6px;
+    transform: rotate(-20deg);
+}
+#cards-img1{
+    left: 130px;
+}
+#cards-img2{
+    left: 170px;
+}
+#new-game-btn, #new-btn{
+    display: none;
+}
+.before-begin{
+    width: 250px;
+    border-radius: 20px;
+    opacity: 0.8;
+    box-shadow: 0 0 50px 16px rgb(99,99,97);
+
+}
+.lost{
+    color: beige;
+    font-size: 30px;
+}
+.won{
+    color: goldenrod;
+    font-size: 30px;
+}
+
+@keyframes anime {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
